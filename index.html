@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smile</title>
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="#">SMILES</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CAROUSEL SECTION -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=287c28051f750029681e5d0cf0b7d722&auto=format&fit=crop&w=600&q=60"
+            alt="First slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1509909756405-be0199881695?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=25836d2c94bc7ec632530e173df790e5&auto=format&fit=crop&w=600&q=60"
+            class="d-block w-100"
+            alt="Second slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://images.unsplash.com/photo-1522100077728-4fae00f560c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8701578bec61bcb857957c601df59fc0&auto=format&fit=crop&w=600&q=60"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about" class="about-card">
+      <div class="container">
+        <div class="about-cell-1">
+          <h2>About</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+            delectus assumenda mollitia cumque nisi officia laudantium vero
+            quasi, sit tempora quidem? Ullam, esse quisquam asperiores iste
+            minima reiciendis quae laboriosam! Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Autem minus quam nulla sunt nobis
+            ipsum laborum et cum corrupti magnam, asperiores in repudiandae,
+            quasi fugiat saepe quas harum exercitationem reprehenderit?
+          </p>
+        </div>
+        <div class="about-cell-2">
+          <img
+            src="https://images.unsplash.com/photo-1488926756850-a13b25e2f415?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7a5b70f54ecde0893b35ced41945b16f&auto=format&fit=crop&w=1047&q=80"
+            alt="about-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY SECTION -->
+    <div id="gallery" class="gallery-card">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="grid">
+          <div class="cell">
+            <img
+              src="https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6a6fb4d8ab35c047f1350b8279def5bb&auto=format&fit=crop&w=1000&q=60"
+              alt="smile-2"
+            />
+            <div class="overlay"><div class="text">Hello</div></div>
+          </div>
+          <div class="cell">
+            <img
+              src="https://images.unsplash.com/photo-1508470612300-4ea23b797a99?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1fb1b017c9cc33049fa1e908e753827c&auto=format&fit=crop&w=1050&q=80"
+              alt="smile-3"
+            />
+            <div class="overlay"><div class="text">my</div></div>
+          </div>
+          <div class="cell">
+            <img
+              src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e19f17c9f3c746f009bfd9f358f03946&auto=format&fit=crop&w=1000&q=60"
+              alt="smile-4"
+            />
+            <div class="overlay"><div class="text">name</div></div>
+          </div>
+          <div class="cell">
+            <img
+              src="https://images.unsplash.com/photo-1519936492597-74c503a7b35f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d6aa6aeca6f83ecbc768ec9de1ee526a&auto=format&fit=crop&w=1000&q=60"
+              alt="smile-5"
+            />
+            <div class="overlay"><div class="text">is</div></div>
+          </div>
+          <div class="cell">
+            <img
+              src="https://images.unsplash.com/photo-1528809217021-151305b50e55?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=733dc8fdf3c430d28c5e1f821caf57ec&auto=format&fit=crop&w=1000&q=60"
+              alt="smile-6"
+            />
+            <div class="overlay"><div class="text">Luke</div></div>
+          </div>
+          <div class="cell">
+            <img
+              src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2fe1fcbff362a3ba7a8eed548f81430b&auto=format&fit=crop&w=1000&q=60"
+              alt="smile-7"
+            />
+            <div class="overlay"><div class="text">Sia</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICE SECTION -->
+    <div id="services" class="service">
+      <div class="container">
+        <h2>Looking to smile?</h2>
+        <div class="service-container">
+          <div class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1520390138845-fd2d229dd553?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8d40e38088f9896824b508783a220bec&auto=format&fit=crop&w=600&q=60"
+              alt="camera-1"
+            />
+            <div class="service-card-info">
+              <h3>Video Editing</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptas, ullam similique vero enim quod doloremque perferendis
+                eos porro harum esse aliquam delectus alias amet velit
+                dignissimos odit repellendus? Et, amet.
+              </p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1518855706573-84de4022b69b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dcef1e79f724de711fa753b0d5ceca0a&auto=format&fit=crop&w=600&q=60"
+              alt="camera-2"
+            />
+            <div class="service-card-info">
+              <h3>Landscape</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                id inventore praesentium illo ullam doloremque iusto, facilis
+                dolorem beatae amet repellendus dolor a alias qui non ipsam,
+                illum explicabo pariatur!
+              </p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img
+              src="https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d3fc0939cb29d2d067345ead2827165&auto=format&fit=crop&w=600&q=60"
+              alt="camera-2"
+            />
+            <div class="service-card-info">
+              <h3>Potrait</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                id inventore praesentium illo ullam doloremque iusto, facilis
+                dolorem beatae amet repellendus dolor a alias qui non ipsam,
+                illum explicabo pariatur!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM SECTION -->
+    <div id="team" class="container">
+      <div class="team">
+        <h2>The Smile Team</h2>
+        <div class="card-group">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="card">
+                <img class="card-img-top"
+                src=https://images.unsplash.com/photo-1474925218713-9e8a1d89c7b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fa2cacff32249ccb1e40d59b6f379cfe&auto=format&fit=crop&w=600&q=60"
+                alt="Card image cap" />
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Jesse Regis</strong></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Repudiandae, numquam eaque officia commodi vel deleniti, in
+                    cumque fugit iste blanditiis nam, culpa dicta exercitationem
+                    enim? Fuga doloribus cumque voluptate illum.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1529734781665-be642ec8fc8b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43ebd2909056716369a68e7571eb8471&auto=format&fit=crop&w=600&q=60"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Leonard Wesley</strong></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Repudiandae, numquam eaque officia commodi vel deleniti, in
+                    cumque fugit iste blanditiis nam, culpa dicta exercitationem
+                    enim? Fuga doloribus cumque voluptate illum.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1499087666200-e07e9c631266?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cccf1e0b2909bf2b896625aad2a8034&auto=format&fit=crop&w=600&q=60"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Ronald Guardian</strong></h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Repudiandae, numquam eaque officia commodi vel deleniti, in
+                    cumque fugit iste blanditiis nam, culpa dicta exercitationem
+                    enim? Fuga doloribus cumque voluptate illum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM SECTION -->
+
+    <div id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="full_name">Full Name</label>
+            <input
+              type="name"
+              class="form-control"
+              id="full_name"
+              aria-describedby="emailHelp"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Mobile Number</label>
+            <input
+              type="text"
+              class="form-control"
+              id="mobile_number"
+              placeholder="Enter your mobile number"
+            />
+          </div>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="email_newsletter"
+            />
+            <label class="form-check-label" for="email_newsletter"
+              >Subscribe to our email newsletter</label
+            >
+          </div>
+          <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#submit"
+          >
+            Submit
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="submit"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="contact-form-submission"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Thank you for contacting us
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  We will contact you withing 3 working days. Be sure to check
+                  your email regularly for our respond.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+
+    <hr />
+    <footer>
+      <div class="container">
+        <div class="copyright">
+          Copyright &copy; 2018 Smiles. All rights reserved.
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://facebook.com" target="_blank"
+                ><img
+                  src="https://cdn3.iconfinder.com/data/icons/gradient-social-media-1/512/Icon-1-128.png"
+                  alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://instagram" target="_blank"
+                ><img
+                  src="https://cdn3.iconfinder.com/data/icons/gradient-social-media-1/512/Icon-3-128.png"
+                  alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://pinterest.com" target="_blank"
+                ><img
+                  src="https://cdn3.iconfinder.com/data/icons/gradient-social-media-1/512/Icon-4-128.png"
+                  alt="pinterest"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank"
+                ><img
+                  src="https://cdn3.iconfinder.com/data/icons/gradient-social-media-1/512/Icon-2-128.png"
+                  alt="twitter"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

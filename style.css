@@ -1,0 +1,261 @@
+/* =============== GENERAL ================= */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* =============== NAVBAR ================= */
+
+header {
+  background: #a6a6f0;
+}
+
+.navbar-brand {
+  margin: 0;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  flex-grow: 1;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+/* =============== LANDING IMAGE ================= */
+
+.carousel-item img {
+  height: 100vh;
+}
+
+/* =============== ABOUT ================= */
+.about-card {
+  margin-top: 2%;
+}
+
+.about-cell-1 {
+  padding: 1rem;
+}
+
+.about-cell-1 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.about-cell-1 p {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.about-cell-2 img {
+  display: none;
+}
+
+/* =============== GALLERY ================= */
+
+.gallery-card {
+  margin-top: 2%;
+}
+
+.cell {
+  position: relative;
+}
+
+.cell img {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: #a6a6f0;
+  color: black;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 25px;
+}
+
+.cell:hover img {
+  transition: 0.8s ease;
+  opacity: 0.5;
+}
+
+.cell:hover .overlay {
+  opacity: 1;
+}
+
+.gallery-card h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+/* =============== SERVICE ================= */
+
+.service {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.service h2 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.service-card img {
+  height: 50%;
+  width: 50%;
+  border-radius: 25px;
+}
+
+.service-card-info h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+/* =============== TEAM ================= */
+.team {
+  margin-top: 2%;
+}
+
+.team h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card img {
+  height: 50%;
+}
+
+.card-body h5 {
+  text-align: center;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+/* =============== Contact ================= */
+.contact {
+  margin-top: 2%;
+  background: #d8d8d8;
+  padding: 2%;
+}
+
+.contact h2 {
+  padding-top: 1%;
+  text-align: center;
+}
+
+/* =============== Footer ================= */
+
+footer .container {
+  padding: 15px 0;
+}
+
+footer .container .copyright {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .container .social-icons ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-icons ul li a img {
+  height: 20px;
+}
+
+/* =============== Back to top ================= */
+
+/* =======================================
+MEDIA QUERIES
+=========================================*/
+
+@media (min-width: 768px) {
+  /* ========== ABOUT ========== */
+  .about-card > .container {
+    display: flex;
+  }
+
+  .about-cell-1 {
+    width: 50%;
+    flex-grow: 1;
+  }
+
+  .about-cell-2 {
+    width: 50%;
+  }
+
+  .about-cell-2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ========== GALLERY ========== */
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cell {
+    width: 45%;
+    margin: 2px;
+  }
+
+  /* ========== SERVICE ========== */
+
+  .service-card {
+    display: flex;
+  }
+
+  .service-card:nth-child(2) > .service-card-info {
+    order: -1;
+  }
+
+  .service-card img {
+    border-radius: 0px;
+  }
+
+  /* ========== FOOTER ========== */
+
+  footer .container {
+    display: flex;
+  }
+
+  footer .container .copyright {
+    flex-grow: 1;
+    text-align: left;
+  }
+}
